@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/github/issues/teletips/Whois-TeLeTiPs?style=for-the-badge&color=yellow" alt="Issues">
 </p>  
 
-## Deplyment Methods
+## Deployment Methods
 
 ### Heroku
 

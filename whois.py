@@ -38,7 +38,7 @@ async def start(client, message):
 <b>Telegram id</b>: <code>{message.from_user.id}</code>
 <b>Phone number</b>: {message.from_user.phone_number}
 <b>Language</b>: {message.from_user.language_code}
-<b>Status</b>: {message.from_user.status}
+<b>Status</b>: {str(message.from_user.status)[11:]}
 <b>Data center id</b>: {message.from_user.dc_id}"""
 )
 
@@ -52,7 +52,7 @@ async def start(client, message):
 <b>Telegram id</b>: <code>{message.reply_to_message.forward_from.id}</code>
 <b>Phone number</b>: {message.reply_to_message.forward_from.phone_number}
 <b>Language</b>: {message.reply_to_message.forward_from.language_code}
-<b>Status</b>: {message.reply_to_message.forward_from.status}
+<b>Status</b>: {str(message.reply_to_message.forward_from.status)[11:]}
 <b>Data center id</b>: {message.reply_to_message.forward_from.dc_id}"""
 )
 

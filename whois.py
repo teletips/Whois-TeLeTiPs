@@ -63,7 +63,7 @@ async def start(client, message):
 <b>Name</b>: {message.reply_to_message.forward_from_chat.title}
 <b>Username</b>: {message.reply_to_message.forward_from_chat.username}
 <b>Telegram id</b>: {message.reply_to_message.forward_from_chat.id}
-<b>Type</b>: {message.reply_to_message.forward_from_chat.type}
+<b>Type</b>: {str(message.reply_to_message.forward_from_chat.type)[9:]}
 <b>Data center id</b>: {message.reply_to_message.forward_from_chat.dc_id}
 """
 )

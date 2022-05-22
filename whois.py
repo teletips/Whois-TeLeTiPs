@@ -16,7 +16,7 @@ whois=Client(
 
 @whois.on_message(filters.command('start') & filters.private)
 async def start(client, message):
-    text = f'Heya {message.from_user.mention},\nMy name is <b>Whois</b>. I am here to provide Telegram information!\n\n<u><b>Commands</b></u>:\n/m - To get your information\n/u - To get user information (Reply to a forwarded message)\n/c - To get group/channel information (Reply to a forwarded message)'
+    text = f'Heya {message.from_user.mention},\nI am here to provide Telegram information!\n\n<u><b>Commands</b></u>:\n/m - To get your information\n/u - To get user information (Reply to a forwarded message)\n/c - To get group/channel information (Reply to a forwarded message)'
     reply_markup = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('NEWS', url='https://t.me/teletipsofficialchannel')

@@ -34,7 +34,7 @@ Works only in bot's private chat
 - [TeLe TiPs](https://github.com/teletips)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-## Friendly Warning
+## Warning
 
 - You are free to use this code in any of your projects, but you MUST include the following in your README.md (Copy & paste)
 ```
